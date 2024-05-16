@@ -1,0 +1,84 @@
+.
+├── README.md
+├── docs
+│   └── images
+│       ├── logo.png
+│       └── screenshot.png
+├── output.txt
+├── pom.xml
+├── src
+│   ├── main
+│   │   ├── java
+│   │   │   └── dev
+│   │   │       └── nano
+│   │   │           └── sbot
+│   │   │               ├── Application.java
+│   │   │               ├── configuration
+│   │   │               │   ├── DocumentConfiguration.java
+│   │   │               │   └── LangChainConfiguration.java
+│   │   │               ├── constant
+│   │   │               │   └── Constants.java
+│   │   │               ├── controller
+│   │   │               │   └── SBotController.java
+│   │   │               ├── retriever
+│   │   │               │   └── EmbeddingStoreLoggingRetriever.java
+│   │   │               └── service
+│   │   │                   └── SBotService.java
+│   │   └── resources
+│   │       ├── application.yml
+│   │       ├── static
+│   │       │   └── logo.png
+│   │       └── templates
+│   │           └── index.html
+│   └── test
+│       └── java
+│           └── dev
+│               └── nano
+│                   └── sbot
+│                       └── ApplicationTests.java
+└── target
+    ├── classes
+    │   ├── application.yml
+    │   ├── dev
+    │   │   └── nano
+    │   │       └── sbot
+    │   │           ├── Application.class
+    │   │           ├── configuration
+    │   │           │   ├── DocumentConfiguration.class
+    │   │           │   └── LangChainConfiguration.class
+    │   │           ├── constant
+    │   │           │   └── Constants.class
+    │   │           ├── controller
+    │   │           │   └── SBotController.class
+    │   │           ├── retriever
+    │   │           │   └── EmbeddingStoreLoggingRetriever.class
+    │   │           └── service
+    │   │               └── SBotService.class
+    │   ├── static
+    │   │   └── logo.png
+    │   └── templates
+    │       └── index.html
+    ├── generated-sources
+    │   └── annotations
+    ├── generated-test-sources
+    │   └── test-annotations
+    ├── maven-status
+    │   └── maven-compiler-plugin
+    │       ├── compile
+    │       │   └── default-compile
+    │       │       ├── createdFiles.lst
+    │       │       └── inputFiles.lst
+    │       └── testCompile
+    │           └── default-testCompile
+    │               ├── createdFiles.lst
+    │               └── inputFiles.lst
+    ├── surefire-reports
+    │   ├── TEST-dev.nano.sbot.ApplicationTests.xml
+    │   └── dev.nano.sbot.ApplicationTests.txt
+    └── test-classes
+        └── dev
+            └── nano
+                └── sbot
+                    └── ApplicationTests.class
+
+49 directories, 33 files
